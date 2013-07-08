@@ -1,0 +1,12 @@
+{% extends 'index/index.html' %}
+
+
+{% block 'page-header-title' %}
+    <h3> Add Standard </h3>
+{% endblock %}
+
+{% load crispy_forms_tags %}
+
+{% block 'working-pane-results' %}
+    {% crispy form %}
+{% endblock %}    
