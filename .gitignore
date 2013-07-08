@@ -1,0 +1,12 @@
+*.log
+*.pot
+*.pyc
+local_settings.py
+apps/readme.txt
+apps/_Reference
+*.~
+*.un~
+*.sw*
+*.txt~
+*.js~
+migrations
